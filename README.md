@@ -31,10 +31,24 @@ npm install
 
 ```
 
-## __2. Inicializar proyecto en back-end y front-end:__
+
+## __2. Cambiar datos del usuario harcodeado:__
+
++ Ir a la carpeta ***back-end/src/data/user.js***
+
+```
+export const user = {
+    walletAddress : "colocar una wallet address valida o la que tengas cargada en metamask."
+    password: "wallet123"
+}
+
+```
+**Nota:** Se tiene que realizar este paso porque la aplicacion valida si hay un usuario con esa Wallet Address.
+
+
+## __3. Inicializar proyecto en back-end y front-end:__
 
 ```
 npm run dev
 
 ```
-
